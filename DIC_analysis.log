@@ -1,0 +1,346 @@
+2025-02-16 04:14:51,134 - root - INFO - Function create_3d_tiffs_from_paths started with args: ([['/mnt/d/DIC/DATA_DIC_RAW/G16057_K13_5/DATA_DIC_G16057_K13_5 _0_ref (1736x2000x1736Px_13,2um)', '/mnt/d/DIC/DATA_DIC_RAW/G16057_K13_5/DATA_DIC_G16057_K13_5 _1_load (1736x2000x1736Px_13,2um)', '/mnt/d/DIC/DATA_DIC_RAW/G16057_K13_5/DATA_DIC_G16057_K13_5 _2_load (1736x2000x1736Px_13,2um)', '/mnt/d/DIC/DATA_DIC_RAW/G16057_K13_5/DATA_DIC_G16057_K13_5 _3_load (1736x2000x1736Px_13,2um)'], ['/mnt/d/DIC/DATA_DIC_RAW/G16057_P4_5/DATA_DIC_G16057_P4_5 _0_ref (1707x2000x1707Px_13,3um)', '/mnt/d/DIC/DATA_DIC_RAW/G16057_P4_5/DATA_DIC_G16057_P4_5 _1_load (1707x2000x1707Px_13,3um)', '/mnt/d/DIC/DATA_DIC_RAW/G16057_P4_5/DATA_DIC_G16057_P4_5 _2_load (1707x2000x1707Px_13,3um)', '/mnt/d/DIC/DATA_DIC_RAW/G16057_P4_5/DATA_DIC_G16057_P4_5 _3_load (1707x2000x1707Px_13,3um)'], ['/mnt/d/DIC/DATA_DIC_RAW/G16060_K12_5/DATA_DIC_G16060_K12_5 _0_ref (1641x2000x1641Px_14um)', '/mnt/d/DIC/DATA_DIC_RAW/G16060_K12_5/DATA_DIC_G16060_K12_5 _1_load (1641x2000x1641Px_14um)', '/mnt/d/DIC/DATA_DIC_RAW/G16060_K12_5/DATA_DIC_G16060_K12_5 _2_load (1641x2000x1641Px_14um)', '/mnt/d/DIC/DATA_DIC_RAW/G16060_K12_5/DATA_DIC_G16060_K12_5 _3_load (1641x2000x1641Px_14um)', '/mnt/d/DIC/DATA_DIC_RAW/G16060_K12_5/DATA_DIC_G16060_K12_5 _4_load (1641x2000x1641Px_14um)'], ['/mnt/d/DIC/DATA_DIC_RAW/G16060_P7_5/DATA_DIC_G16060_P7_5 _0_ref (1641x2000x1641Px_14um)', '/mnt/d/DIC/DATA_DIC_RAW/G16060_P7_5/DATA_DIC_G16060_P7_5 _1_load (1641x2000x1641Px_14um)', '/mnt/d/DIC/DATA_DIC_RAW/G16060_P7_5/DATA_DIC_G16060_P7_5 _2_load (1641x2000x1641Px_14um)', '/mnt/d/DIC/DATA_DIC_RAW/G16060_P7_5/DATA_DIC_G16060_P7_5 _3_load (1641x2000x1641Px_14um)']], '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_RAW'), kwargs: {}
+2025-02-16 04:16:54,482 - root - INFO - Function create_3d_tiffs_from_paths started with args: (['/mnt/d/DIC/DATA_DIC_RAW/G16057_K13_5/DATA_DIC_G16057_K13_5 _0_ref (1736x2000x1736Px_13,2um)', '/mnt/d/DIC/DATA_DIC_RAW/G16057_K13_5/DATA_DIC_G16057_K13_5 _1_load (1736x2000x1736Px_13,2um)', '/mnt/d/DIC/DATA_DIC_RAW/G16057_K13_5/DATA_DIC_G16057_K13_5 _2_load (1736x2000x1736Px_13,2um)', '/mnt/d/DIC/DATA_DIC_RAW/G16057_K13_5/DATA_DIC_G16057_K13_5 _3_load (1736x2000x1736Px_13,2um)'], '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_RAW'), kwargs: {}
+2025-02-16 04:16:54,489 - root - INFO - Function create_3d_tiffs_from_paths ended with result: None
+2025-02-16 04:16:54,489 - root - INFO - Function create_3d_tiffs_from_paths runtime: 0:00:00
+2025-02-26 16:56:14,002 - root - INFO - Function align_images_from_path started with args: ('/mnt/d/DIC/DATA_DIC_RAW/G16057_K13_5/DATA_DIC_G16057_K13_5 _0_ref (1736x2000x1736Px_13,2um)', '/mnt/d/DIC/DATA_DIC_RAW/G16057_K13_5/DATA_DIC_G16057_K13_5 _1_load (1736x2000x1736Px_13,2um)', '/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16057_K13_5/1_load', (1400, 1600), (400, 800)), kwargs: {}
+2025-02-26 17:08:29,090 - root - INFO - Function align_images_from_path ended with result: None
+2025-02-26 17:08:29,090 - root - INFO - Function align_images_from_path runtime: 0:12:15
+2025-02-26 17:08:29,090 - root - INFO - Function create_3d_tiffs_from_paths started with args: ('/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16057_K13_5/1_load', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED'), kwargs: {}
+2025-02-26 17:28:40,354 - root - INFO - Function create_3d_tiff_from_path started with args: ('/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16057_K13_5/1_load', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED'), kwargs: {}
+2025-02-26 17:32:33,427 - root - INFO - Function create_3d_tiff_from_path started with args: ('/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16057_K13_5/1_load', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED'), kwargs: {}
+2025-02-26 17:49:05,726 - root - INFO - Function create_3d_tiff_from_path started with args: ('/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16057_K13_5/1_load', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/1_load.tif'), kwargs: {}
+2025-02-26 17:50:51,597 - root - INFO - Function create_3d_tiff_from_path ended with result: None
+2025-02-26 17:50:51,598 - root - INFO - Function create_3d_tiff_from_path runtime: 0:01:45
+2025-02-26 17:50:51,603 - root - INFO - Function align_images_from_path started with args: ('/mnt/d/DIC/DATA_DIC_RAW/G16057_K13_5/DATA_DIC_G16057_K13_5 _0_ref (1736x2000x1736Px_13,2um)', '/mnt/d/DIC/DATA_DIC_RAW/G16057_K13_5/DATA_DIC_G16057_K13_5 _2_load (1736x2000x1736Px_13,2um)', '/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16057_K13_5/2_load', (1400, 1600), (400, 800)), kwargs: {}
+2025-02-26 17:57:06,407 - root - INFO - Function create_3d_tiff_from_path started with args: ('/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16057_K13_5/1_load', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5_1_load.tif'), kwargs: {}
+2025-02-26 17:59:05,480 - root - INFO - Function create_3d_tiff_from_path ended with result: None
+2025-02-26 17:59:05,480 - root - INFO - Function create_3d_tiff_from_path runtime: 0:01:59
+2025-02-26 17:59:05,483 - root - INFO - Function create_3d_tiff_from_path started with args: ('/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16057_K13_5/2_load', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5_2_load.tif'), kwargs: {}
+2025-02-26 17:59:45,945 - root - INFO - Function create_3d_tiff_from_path ended with result: None
+2025-02-26 17:59:45,945 - root - INFO - Function create_3d_tiff_from_path runtime: 0:00:40
+2025-02-26 17:59:45,950 - root - INFO - Function align_images_from_path started with args: ('/mnt/d/DIC/DATA_DIC_RAW/G16057_K13_5/DATA_DIC_G16057_K13_5 _0_ref (1736x2000x1736Px_13,2um)', '/mnt/d/DIC/DATA_DIC_RAW/G16057_K13_5/DATA_DIC_G16057_K13_5 _3_load (1736x2000x1736Px_13,2um)', '/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16057_K13_5/3_load', (1400, 1600), (400, 800)), kwargs: {}
+2025-02-26 18:12:12,012 - root - INFO - Function align_images_from_path ended with result: None
+2025-02-26 18:12:12,013 - root - INFO - Function align_images_from_path runtime: 0:12:26
+2025-02-26 18:12:12,013 - root - INFO - Function create_3d_tiff_from_path started with args: ('/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16057_K13_5/3_load', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5_3_load.tif'), kwargs: {}
+2025-02-26 18:13:45,818 - root - INFO - Function create_3d_tiff_from_path ended with result: None
+2025-02-26 18:13:45,818 - root - INFO - Function create_3d_tiff_from_path runtime: 0:01:33
+2025-02-26 18:13:45,823 - root - INFO - Function align_images_from_path started with args: ('/mnt/d/DIC/DATA_DIC_RAW/G16057_P4_5/DATA_DIC_G16057_P4_5 _0_ref (1707x2000x1707Px_13,3um)', '/mnt/d/DIC/DATA_DIC_RAW/G16057_P4_5/DATA_DIC_G16057_P4_5 _1_load (1707x2000x1707Px_13,3um)', '/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16057_P4_5/1_load', (1400, 1600), (400, 800)), kwargs: {}
+2025-02-26 18:26:15,537 - root - INFO - Function align_images_from_path ended with result: None
+2025-02-26 18:26:15,537 - root - INFO - Function align_images_from_path runtime: 0:12:29
+2025-02-26 18:26:15,537 - root - INFO - Function create_3d_tiff_from_path started with args: ('/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16057_P4_5/1_load', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5_1_load.tif'), kwargs: {}
+2025-02-26 18:27:51,422 - root - INFO - Function create_3d_tiff_from_path ended with result: None
+2025-02-26 18:27:51,422 - root - INFO - Function create_3d_tiff_from_path runtime: 0:01:35
+2025-02-26 18:27:51,431 - root - INFO - Function align_images_from_path started with args: ('/mnt/d/DIC/DATA_DIC_RAW/G16057_P4_5/DATA_DIC_G16057_P4_5 _0_ref (1707x2000x1707Px_13,3um)', '/mnt/d/DIC/DATA_DIC_RAW/G16057_P4_5/DATA_DIC_G16057_P4_5 _2_load (1707x2000x1707Px_13,3um)', '/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16057_P4_5/2_load', (1400, 1600), (400, 800)), kwargs: {}
+2025-02-26 18:40:16,386 - root - INFO - Function align_images_from_path ended with result: None
+2025-02-26 18:40:16,386 - root - INFO - Function align_images_from_path runtime: 0:12:24
+2025-02-26 18:40:16,386 - root - INFO - Function create_3d_tiff_from_path started with args: ('/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16057_P4_5/2_load', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5_2_load.tif'), kwargs: {}
+2025-02-26 18:41:55,365 - root - INFO - Function create_3d_tiff_from_path ended with result: None
+2025-02-26 18:41:55,365 - root - INFO - Function create_3d_tiff_from_path runtime: 0:01:38
+2025-02-26 18:41:55,367 - root - INFO - Function align_images_from_path started with args: ('/mnt/d/DIC/DATA_DIC_RAW/G16057_P4_5/DATA_DIC_G16057_P4_5 _0_ref (1707x2000x1707Px_13,3um)', '/mnt/d/DIC/DATA_DIC_RAW/G16057_P4_5/DATA_DIC_G16057_P4_5 _3_load (1707x2000x1707Px_13,3um)', '/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16057_P4_5/3_load', (1400, 1600), (400, 800)), kwargs: {}
+2025-02-26 18:54:37,437 - root - INFO - Function align_images_from_path ended with result: None
+2025-02-26 18:54:37,437 - root - INFO - Function align_images_from_path runtime: 0:12:42
+2025-02-26 18:54:37,437 - root - INFO - Function create_3d_tiff_from_path started with args: ('/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16057_P4_5/3_load', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5_3_load.tif'), kwargs: {}
+2025-02-26 18:56:17,318 - root - INFO - Function create_3d_tiff_from_path ended with result: None
+2025-02-26 18:56:17,319 - root - INFO - Function create_3d_tiff_from_path runtime: 0:01:39
+2025-02-26 18:56:17,323 - root - INFO - Function align_images_from_path started with args: ('/mnt/d/DIC/DATA_DIC_RAW/G16060_K12_5/DATA_DIC_G16060_K12_5 _0_ref (1641x2000x1641Px_14um)', '/mnt/d/DIC/DATA_DIC_RAW/G16060_K12_5/DATA_DIC_G16060_K12_5 _1_load (1641x2000x1641Px_14um)', '/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16060_K12_5/1_load', (1400, 1600), (400, 800)), kwargs: {}
+2025-02-26 19:06:54,444 - root - INFO - Function align_images_from_path ended with result: None
+2025-02-26 19:06:54,445 - root - INFO - Function align_images_from_path runtime: 0:10:37
+2025-02-26 19:06:54,445 - root - INFO - Function create_3d_tiff_from_path started with args: ('/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16060_K12_5/1_load', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_K12_5_1_load.tif'), kwargs: {}
+2025-02-26 19:08:15,263 - root - INFO - Function create_3d_tiff_from_path ended with result: None
+2025-02-26 19:08:15,263 - root - INFO - Function create_3d_tiff_from_path runtime: 0:01:20
+2025-02-26 19:08:15,270 - root - INFO - Function align_images_from_path started with args: ('/mnt/d/DIC/DATA_DIC_RAW/G16060_K12_5/DATA_DIC_G16060_K12_5 _0_ref (1641x2000x1641Px_14um)', '/mnt/d/DIC/DATA_DIC_RAW/G16060_K12_5/DATA_DIC_G16060_K12_5 _2_load (1641x2000x1641Px_14um)', '/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16060_K12_5/2_load', (1400, 1600), (400, 800)), kwargs: {}
+2025-02-26 19:18:47,187 - root - INFO - Function align_images_from_path ended with result: None
+2025-02-26 19:18:47,187 - root - INFO - Function align_images_from_path runtime: 0:10:31
+2025-02-26 19:18:47,187 - root - INFO - Function create_3d_tiff_from_path started with args: ('/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16060_K12_5/2_load', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_K12_5_2_load.tif'), kwargs: {}
+2025-02-26 19:20:06,276 - root - INFO - Function create_3d_tiff_from_path ended with result: None
+2025-02-26 19:20:06,276 - root - INFO - Function create_3d_tiff_from_path runtime: 0:01:19
+2025-02-26 19:20:06,279 - root - INFO - Function align_images_from_path started with args: ('/mnt/d/DIC/DATA_DIC_RAW/G16060_K12_5/DATA_DIC_G16060_K12_5 _0_ref (1641x2000x1641Px_14um)', '/mnt/d/DIC/DATA_DIC_RAW/G16060_K12_5/DATA_DIC_G16060_K12_5 _3_load (1641x2000x1641Px_14um)', '/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16060_K12_5/3_load', (1400, 1600), (400, 800)), kwargs: {}
+2025-02-26 19:30:27,412 - root - INFO - Function align_images_from_path ended with result: None
+2025-02-26 19:30:27,413 - root - INFO - Function align_images_from_path runtime: 0:10:21
+2025-02-26 19:30:27,413 - root - INFO - Function create_3d_tiff_from_path started with args: ('/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16060_K12_5/3_load', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_K12_5_3_load.tif'), kwargs: {}
+2025-02-26 19:31:48,586 - root - INFO - Function create_3d_tiff_from_path ended with result: None
+2025-02-26 19:31:48,586 - root - INFO - Function create_3d_tiff_from_path runtime: 0:01:21
+2025-02-26 19:31:48,592 - root - INFO - Function align_images_from_path started with args: ('/mnt/d/DIC/DATA_DIC_RAW/G16060_K12_5/DATA_DIC_G16060_K12_5 _0_ref (1641x2000x1641Px_14um)', '/mnt/d/DIC/DATA_DIC_RAW/G16060_K12_5/DATA_DIC_G16060_K12_5 _4_load (1641x2000x1641Px_14um)', '/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16060_K12_5/4_load', (1400, 1600), (400, 800)), kwargs: {}
+2025-02-26 19:42:19,143 - root - INFO - Function align_images_from_path ended with result: None
+2025-02-26 19:42:19,144 - root - INFO - Function align_images_from_path runtime: 0:10:30
+2025-02-26 19:42:19,144 - root - INFO - Function create_3d_tiff_from_path started with args: ('/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16060_K12_5/4_load', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_K12_5_4_load.tif'), kwargs: {}
+2025-02-26 19:43:42,081 - root - INFO - Function create_3d_tiff_from_path ended with result: None
+2025-02-26 19:43:42,081 - root - INFO - Function create_3d_tiff_from_path runtime: 0:01:22
+2025-02-26 19:43:42,107 - root - INFO - Function align_images_from_path started with args: ('/mnt/d/DIC/DATA_DIC_RAW/G16060_P7_5/DATA_DIC_G16060_P7_5 _0_ref (1641x2000x1641Px_14um)', '/mnt/d/DIC/DATA_DIC_RAW/G16060_P7_5/DATA_DIC_G16060_P7_5 _1_load (1641x2000x1641Px_14um)', '/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16060_P7_5/1_load', (1400, 1600), (400, 800)), kwargs: {}
+2025-02-26 19:56:04,340 - root - INFO - Function align_images_from_path ended with result: None
+2025-02-26 19:56:04,341 - root - INFO - Function align_images_from_path runtime: 0:12:22
+2025-02-26 19:56:04,341 - root - INFO - Function create_3d_tiff_from_path started with args: ('/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16060_P7_5/1_load', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_P7_5_1_load.tif'), kwargs: {}
+2025-02-26 19:57:35,706 - root - INFO - Function create_3d_tiff_from_path ended with result: None
+2025-02-26 19:57:35,706 - root - INFO - Function create_3d_tiff_from_path runtime: 0:01:31
+2025-02-26 19:57:35,709 - root - INFO - Function align_images_from_path started with args: ('/mnt/d/DIC/DATA_DIC_RAW/G16060_P7_5/DATA_DIC_G16060_P7_5 _0_ref (1641x2000x1641Px_14um)', '/mnt/d/DIC/DATA_DIC_RAW/G16060_P7_5/DATA_DIC_G16060_P7_5 _2_load (1641x2000x1641Px_14um)', '/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16060_P7_5/2_load', (1400, 1600), (400, 800)), kwargs: {}
+2025-02-26 20:09:32,957 - root - INFO - Function align_images_from_path ended with result: None
+2025-02-26 20:09:32,957 - root - INFO - Function align_images_from_path runtime: 0:11:57
+2025-02-26 20:09:32,958 - root - INFO - Function create_3d_tiff_from_path started with args: ('/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16060_P7_5/2_load', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_P7_5_2_load.tif'), kwargs: {}
+2025-02-26 20:11:01,547 - root - INFO - Function create_3d_tiff_from_path ended with result: None
+2025-02-26 20:11:01,547 - root - INFO - Function create_3d_tiff_from_path runtime: 0:01:28
+2025-02-26 20:11:01,550 - root - INFO - Function align_images_from_path started with args: ('/mnt/d/DIC/DATA_DIC_RAW/G16060_P7_5/DATA_DIC_G16060_P7_5 _0_ref (1641x2000x1641Px_14um)', '/mnt/d/DIC/DATA_DIC_RAW/G16060_P7_5/DATA_DIC_G16060_P7_5 _3_load (1641x2000x1641Px_14um)', '/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16060_P7_5/3_load', (1400, 1600), (400, 800)), kwargs: {}
+2025-02-26 20:23:24,770 - root - INFO - Function align_images_from_path ended with result: None
+2025-02-26 20:23:24,770 - root - INFO - Function align_images_from_path runtime: 0:12:23
+2025-02-26 20:23:24,770 - root - INFO - Function create_3d_tiff_from_path started with args: ('/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16060_P7_5/3_load', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_P7_5_3_load.tif'), kwargs: {}
+2025-02-26 20:24:47,060 - root - INFO - Function create_3d_tiff_from_path ended with result: None
+2025-02-26 20:24:47,061 - root - INFO - Function create_3d_tiff_from_path runtime: 0:01:22
+2025-02-26 21:13:05,178 - root - INFO - Function create_3d_tiff_from_path started with args: ('/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16057_K13_5/2_load', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5_2_load.tif'), kwargs: {}
+2025-02-26 21:13:48,315 - root - INFO - Function create_3d_tiff_from_path ended with result: None
+2025-02-26 21:13:48,316 - root - INFO - Function create_3d_tiff_from_path runtime: 0:00:43
+2025-02-26 21:16:40,375 - root - INFO - Function align_images_from_path started with args: ('/mnt/d/DIC/DATA_DIC_RAW/G16057_K13_5/DATA_DIC_G16057_K13_5 _0_ref (1736x2000x1736Px_13,2um)', '/mnt/d/DIC/DATA_DIC_RAW/G16057_K13_5/DATA_DIC_G16057_K13_5 _1_load (1736x2000x1736Px_13,2um)', '/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16057_K13_5/1_load', (1400, 1600), (400, 800)), kwargs: {}
+2025-02-26 21:18:19,261 - root - INFO - Function align_images_from_path started with args: ('/mnt/d/DIC/DATA_DIC_RAW/G16057_K13_5/DATA_DIC_G16057_K13_5 _0_ref (1736x2000x1736Px_13,2um)', '/mnt/d/DIC/DATA_DIC_RAW/G16057_K13_5/DATA_DIC_G16057_K13_5 _1_load (1736x2000x1736Px_13,2um)', '/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16057_K13_5/1_load', (1400, 1600), (400, 800)), kwargs: {}
+2025-02-26 21:20:36,075 - root - INFO - Function align_images_from_path started with args: ('/mnt/d/DIC/DATA_DIC_RAW/G16057_K13_5/DATA_DIC_G16057_K13_5 _0_ref (1736x2000x1736Px_13,2um)', '/mnt/d/DIC/DATA_DIC_RAW/G16057_K13_5/DATA_DIC_G16057_K13_5 _1_load (1736x2000x1736Px_13,2um)', '/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16057_K13_5/1_load', (1400, 1600), (400, 800)), kwargs: {}
+2025-02-26 21:32:45,513 - root - INFO - Function align_images_from_path ended with result: None
+2025-02-26 21:32:45,513 - root - INFO - Function align_images_from_path runtime: 0:12:09
+2025-02-26 21:32:45,528 - root - INFO - Function align_images_from_path started with args: ('/mnt/d/DIC/DATA_DIC_RAW/G16057_K13_5/DATA_DIC_G16057_K13_5 _0_ref (1736x2000x1736Px_13,2um)', '/mnt/d/DIC/DATA_DIC_RAW/G16057_K13_5/DATA_DIC_G16057_K13_5 _2_load (1736x2000x1736Px_13,2um)', '/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16057_K13_5/2_load', (1400, 1600), (400, 800)), kwargs: {}
+2025-02-26 21:45:05,345 - root - INFO - Function align_images_from_path ended with result: None
+2025-02-26 21:45:05,345 - root - INFO - Function align_images_from_path runtime: 0:12:19
+2025-02-26 21:45:05,348 - root - INFO - Function create_3d_tiff_from_path started with args: ('/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16057_K13_5/2_load', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5_2_load.tif'), kwargs: {}
+2025-02-26 21:46:50,287 - root - INFO - Function create_3d_tiff_from_path ended with result: None
+2025-02-26 21:46:50,288 - root - INFO - Function create_3d_tiff_from_path runtime: 0:01:44
+2025-02-26 21:46:50,299 - root - INFO - Function align_images_from_path started with args: ('/mnt/d/DIC/DATA_DIC_RAW/G16057_K13_5/DATA_DIC_G16057_K13_5 _0_ref (1736x2000x1736Px_13,2um)', '/mnt/d/DIC/DATA_DIC_RAW/G16057_K13_5/DATA_DIC_G16057_K13_5 _3_load (1736x2000x1736Px_13,2um)', '/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16057_K13_5/3_load', (1400, 1600), (400, 800)), kwargs: {}
+2025-02-26 21:59:09,492 - root - INFO - Function align_images_from_path ended with result: None
+2025-02-26 21:59:09,493 - root - INFO - Function align_images_from_path runtime: 0:12:19
+2025-02-26 22:59:20,195 - root - INFO - Function align_images_from_path started with args: ('/mnt/d/DIC/DATA_DIC_RAW/G16057_K13_5/DATA_DIC_G16057_K13_5 _0_ref (1736x2000x1736Px_13,2um)', '/mnt/d/DIC/DATA_DIC_RAW/G16057_K13_5/DATA_DIC_G16057_K13_5 _0_ref (1736x2000x1736Px_13,2um)', '/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16057_K13_5/0_ref', (1400, 1600), (400, 800)), kwargs: {}
+2025-02-26 23:01:07,943 - root - INFO - Function create_3d_tiff_from_path started with args: ('/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16057_K13_5/0_ref', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_0_ref.tif'), kwargs: {}
+2025-02-26 23:01:10,782 - root - INFO - Function create_3d_tiff_from_path ended with result: None
+2025-02-26 23:01:10,782 - root - INFO - Function create_3d_tiff_from_path runtime: 0:00:02
+2025-02-26 23:01:10,794 - root - INFO - Function align_images_from_path started with args: ('/mnt/d/DIC/DATA_DIC_RAW/G16057_P4_5/DATA_DIC_G16057_P4_5 _0_ref (1707x2000x1707Px_13,3um)', '/mnt/d/DIC/DATA_DIC_RAW/G16057_P4_5/DATA_DIC_G16057_P4_5 _0_ref (1707x2000x1707Px_13,3um)', '/mnt/d/DIC/DATA_DIC_PROCESSED/ALIGNED_TIFF_RAW/G16057_P4_5/0_ref', (1400, 1600), (400, 800)), kwargs: {}
+2025-02-26 23:16:55,054 - root - INFO - Function create_3d_tiff_from_path started with args: ('/mnt/d/DIC/DATA_DIC_RAW/G16057_K13_5/DATA_DIC_G16057_K13_5 _0_ref (1736x2000x1736Px_13,2um)', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_0_ref.tif'), kwargs: {}
+2025-02-26 23:25:26,949 - root - INFO - Function create_3d_tiff_from_path ended with result: None
+2025-02-26 23:25:26,949 - root - INFO - Function create_3d_tiff_from_path runtime: 0:08:31
+2025-02-26 23:25:26,956 - root - INFO - Function create_3d_tiff_from_path started with args: ('/mnt/d/DIC/DATA_DIC_RAW/G16057_P4_5/DATA_DIC_G16057_P4_5 _0_ref (1707x2000x1707Px_13,3um)', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5/G16057_P4_5_0_ref.tif'), kwargs: {}
+2025-02-26 23:27:15,444 - root - INFO - Function create_3d_tiff_from_path ended with result: None
+2025-02-26 23:27:15,444 - root - INFO - Function create_3d_tiff_from_path runtime: 0:01:48
+2025-02-26 23:27:15,455 - root - INFO - Function create_3d_tiff_from_path started with args: ('/mnt/d/DIC/DATA_DIC_RAW/G16060_K12_5/DATA_DIC_G16060_K12_5 _0_ref (1641x2000x1641Px_14um)', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_K12_5/G16060_K12_5_0_ref.tif'), kwargs: {}
+2025-02-26 23:28:40,372 - root - INFO - Function create_3d_tiff_from_path ended with result: None
+2025-02-26 23:28:40,372 - root - INFO - Function create_3d_tiff_from_path runtime: 0:01:24
+2025-02-26 23:28:40,379 - root - INFO - Function create_3d_tiff_from_path started with args: ('/mnt/d/DIC/DATA_DIC_RAW/G16060_P7_5/DATA_DIC_G16060_P7_5 _0_ref (1641x2000x1641Px_14um)', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_P7_5/G16060_P7_5_0_ref.tif'), kwargs: {}
+2025-02-26 23:30:21,623 - root - INFO - Function create_3d_tiff_from_path ended with result: None
+2025-02-26 23:30:21,623 - root - INFO - Function create_3d_tiff_from_path runtime: 0:01:41
+2025-02-27 01:32:32,062 - jgo - INFO - First time start-up may be slow. Downloaded dependencies will be cached for shorter start-up times in subsequent executions.
+2025-02-27 01:32:36,398 - jgo - ERROR - Failed to bootstrap the artifact.
+2025-02-27 01:32:36,399 - jgo - ERROR - 
+2025-02-27 01:32:36,399 - jgo - ERROR - Possible solutions:
+2025-02-27 01:32:36,399 - jgo - ERROR - * Double check the endpoint for correctness (https://search.maven.org/).
+2025-02-27 01:32:36,399 - jgo - ERROR - * Add needed repositories to ~/.jgorc [repositories] block (see README).
+2025-02-27 01:32:36,399 - jgo - ERROR - * Try with an explicit version number (release metadata might be wrong).
+2025-02-27 01:32:36,399 - jgo - ERROR - 
+2025-02-27 01:32:36,399 - jgo - ERROR - Full Maven error output:
+2025-02-27 01:32:36,399 - jgo - ERROR - 	[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+2025-02-27 01:32:36,399 - jgo - ERROR - 	[ERROR] 'dependencies.dependency.version' for net.imagej:imagej-legacy:jar is missing. @ line 10, column 137
+2025-02-27 01:32:36,399 - jgo - ERROR - 	[ERROR] 'dependencies.dependency.version' for org.scijava:scijava-config:jar is missing. @ line 10, column 347
+2025-02-27 01:32:36,399 - jgo - ERROR - 	[ERROR] The build could not read 1 project -> [Help 1]
+2025-02-27 01:32:36,399 - jgo - ERROR - 	[ERROR]   
+2025-02-27 01:32:36,399 - jgo - ERROR - 	[ERROR]   The project net.imagej-BOOTSTRAPPER:imagej-BOOTSTRAPPER:0 (/home/jan/.jgo/net.imagej/imagej/1.53c/c253d2fa876bafd995b44598e3bf2c4d819b58a68689af587a91242ca7946d5f/pom.xml) has 2 errors
+2025-02-27 01:32:36,399 - jgo - ERROR - 	[ERROR]     'dependencies.dependency.version' for net.imagej:imagej-legacy:jar is missing. @ line 10, column 137
+2025-02-27 01:32:36,399 - jgo - ERROR - 	[ERROR]     'dependencies.dependency.version' for org.scijava:scijava-config:jar is missing. @ line 10, column 347
+2025-02-27 01:32:36,399 - jgo - ERROR - 	[ERROR] 
+2025-02-27 01:32:36,399 - jgo - ERROR - 	[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+2025-02-27 01:32:36,399 - jgo - ERROR - 	[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+2025-02-27 01:32:36,399 - jgo - ERROR - 	[ERROR] 
+2025-02-27 01:32:36,399 - jgo - ERROR - 	[ERROR] For more information about the errors and possible solutions, please read the following articles:
+2025-02-27 01:32:36,399 - jgo - ERROR - 	[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+2025-02-27 01:32:36,399 - jgo - ERROR - 
+2025-02-27 01:32:36,399 - imagej - ERROR - ***Invalid Initialization: you may be using a primary endpoint that lacks pom-scijava as a parent***
+To keep all Java components at compatible versions we recommend using a primary endpoint with a pom-scijava parent.
+For example, by putting 'net.imagej:imagej' first in your list of endpoints.
+If you are sure you DO NOT want a primary endpoint with a pom-scijava parent, please re-initialize with 'add_legacy=False'.
+2025-02-27 01:36:16,870 - imagej - WARNING - Operating in headless mode - the original ImageJ will have limited functionality.
+2025-02-27 03:09:38,198 - root - INFO - Function dvc_procedures started with args: (20, 80, 50, 88, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_1_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/20hws_80ns_50it_44glt_3z-3y-3xm_G16057_K13_5_0_ref-G16057_K13_5_1_load'), kwargs: {}
+2025-02-27 03:11:34,554 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-27 03:11:34,561 - root - INFO - Function dvc_procedures runtime: 0:01:56
+2025-02-27 14:06:57,497 - root - INFO - Function dvc_procedures started with args: (20, 80, 50, 44.41, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_1_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/20hws_80ns_50it_44glt_3z-3y-3xm_G16057_K13_5_0_ref-G16057_K13_5_1_load'), kwargs: {}
+2025-02-27 14:09:24,080 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-27 14:09:24,080 - root - INFO - Function dvc_procedures runtime: 0:02:26
+2025-02-27 14:10:48,933 - root - INFO - Function dvc_procedures started with args: (20, 80, 50, 44.41, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_1_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/20hws_80ns_50it_44glt_3z-3y-3xm_G16057_K13_5_0_ref-G16057_K13_5_1_load'), kwargs: {}
+2025-02-27 14:13:04,266 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-27 14:13:04,267 - root - INFO - Function dvc_procedures runtime: 0:02:15
+2025-02-27 14:13:05,509 - root - INFO - Function dvc_procedures started with args: (20, 80, 50, 44.41, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_2_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/20hws_80ns_50it_44glt_3z-3y-3xm_G16057_K13_5_0_ref-G16057_K13_5_2_load'), kwargs: {}
+2025-02-27 14:15:22,277 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-27 14:15:22,278 - root - INFO - Function dvc_procedures runtime: 0:02:16
+2025-02-27 14:15:23,658 - root - INFO - Function dvc_procedures started with args: (20, 80, 50, 44.41, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_3_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/20hws_80ns_50it_44glt_3z-3y-3xm_G16057_K13_5_0_ref-G16057_K13_5_3_load'), kwargs: {}
+2025-02-27 14:17:53,850 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-27 14:17:53,850 - root - INFO - Function dvc_procedures runtime: 0:02:30
+2025-02-27 14:17:55,017 - root - INFO - Function dvc_procedures started with args: (20, 80, 50, 47.2812, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5/G16057_P4_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5/G16057_P4_5_1_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/20hws_80ns_50it_47glt_3z-3y-3xm_G16057_P4_5_0_ref-G16057_P4_5_1_load'), kwargs: {}
+2025-02-27 14:20:23,736 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-27 14:20:23,737 - root - INFO - Function dvc_procedures runtime: 0:02:28
+2025-02-27 14:20:24,966 - root - INFO - Function dvc_procedures started with args: (20, 80, 50, 47.2812, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5/G16057_P4_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5/G16057_P4_5_2_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/20hws_80ns_50it_47glt_3z-3y-3xm_G16057_P4_5_0_ref-G16057_P4_5_2_load'), kwargs: {}
+2025-02-27 14:22:54,627 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-27 14:22:54,628 - root - INFO - Function dvc_procedures runtime: 0:02:29
+2025-02-27 14:22:55,909 - root - INFO - Function dvc_procedures started with args: (20, 80, 50, 47.2812, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5/G16057_P4_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5/G16057_P4_5_3_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/20hws_80ns_50it_47glt_3z-3y-3xm_G16057_P4_5_0_ref-G16057_P4_5_3_load'), kwargs: {}
+2025-02-27 14:25:44,000 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-27 14:25:44,000 - root - INFO - Function dvc_procedures runtime: 0:02:48
+2025-02-27 14:25:45,118 - root - INFO - Function dvc_procedures started with args: (20, 80, 50, 62.598, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_K12_5/G16060_K12_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_K12_5/G16060_K12_5_1_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/20hws_80ns_50it_63glt_3z-3y-3xm_G16060_K12_5_0_ref-G16060_K12_5_1_load'), kwargs: {}
+2025-02-27 14:28:35,145 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-27 14:28:35,146 - root - INFO - Function dvc_procedures runtime: 0:02:50
+2025-02-27 14:28:36,251 - root - INFO - Function dvc_procedures started with args: (20, 80, 50, 62.598, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_K12_5/G16060_K12_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_K12_5/G16060_K12_5_2_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/20hws_80ns_50it_63glt_3z-3y-3xm_G16060_K12_5_0_ref-G16060_K12_5_2_load'), kwargs: {}
+2025-02-27 14:31:25,981 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-27 14:31:25,981 - root - INFO - Function dvc_procedures runtime: 0:02:49
+2025-02-27 14:31:27,168 - root - INFO - Function dvc_procedures started with args: (20, 80, 50, 62.598, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_K12_5/G16060_K12_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_K12_5/G16060_K12_5_3_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/20hws_80ns_50it_63glt_3z-3y-3xm_G16060_K12_5_0_ref-G16060_K12_5_3_load'), kwargs: {}
+2025-02-27 14:34:20,182 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-27 14:34:20,183 - root - INFO - Function dvc_procedures runtime: 0:02:53
+2025-02-27 14:34:21,297 - root - INFO - Function dvc_procedures started with args: (20, 80, 50, 62.598, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_K12_5/G16060_K12_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_K12_5/G16060_K12_5_4_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/20hws_80ns_50it_63glt_3z-3y-3xm_G16060_K12_5_0_ref-G16060_K12_5_4_load'), kwargs: {}
+2025-02-27 14:37:22,714 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-27 14:37:22,715 - root - INFO - Function dvc_procedures runtime: 0:03:01
+2025-02-27 14:37:23,941 - root - INFO - Function dvc_procedures started with args: (20, 80, 50, 47.8356, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_P7_5/G16060_P7_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_P7_5/G16060_P7_5_3_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/20hws_80ns_50it_48glt_3z-3y-3xm_G16060_P7_5_0_ref-G16060_P7_5_3_load'), kwargs: {}
+2025-02-27 14:41:23,251 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-27 14:41:23,251 - root - INFO - Function dvc_procedures runtime: 0:03:59
+2025-02-27 14:41:24,400 - root - INFO - Function dvc_procedures started with args: (20, 80, 50, 47.8356, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_P7_5/G16060_P7_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_P7_5/G16060_P7_5_1_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/20hws_80ns_50it_48glt_3z-3y-3xm_G16060_P7_5_0_ref-G16060_P7_5_1_load'), kwargs: {}
+2025-02-27 14:45:22,558 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-27 14:45:22,558 - root - INFO - Function dvc_procedures runtime: 0:03:58
+2025-02-27 14:45:24,034 - root - INFO - Function dvc_procedures started with args: (20, 80, 50, 47.8356, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_P7_5/G16060_P7_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_P7_5/G16060_P7_5_2_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/20hws_80ns_50it_48glt_3z-3y-3xm_G16060_P7_5_0_ref-G16060_P7_5_2_load'), kwargs: {}
+2025-02-27 14:49:24,268 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-27 14:49:24,269 - root - INFO - Function dvc_procedures runtime: 0:04:00
+2025-02-28 14:23:44,464 - root - INFO - Function dvc_procedures started with args: (20, 60, 50, 44.41, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_1_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/20hws_60ns_50it_44glt_3z-3y-3xm_G16057_K13_5_0_ref-G16057_K13_5_1_load'), kwargs: {}
+2025-02-28 14:27:32,444 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-28 14:27:32,444 - root - INFO - Function dvc_procedures runtime: 0:03:47
+2025-02-28 14:27:33,258 - root - INFO - Function dvc_procedures started with args: (40, 80, 50, 44.41, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_1_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/40hws_80ns_50it_44glt_3z-3y-3xm_G16057_K13_5_0_ref-G16057_K13_5_1_load'), kwargs: {}
+2025-02-28 14:38:24,137 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-28 14:38:24,138 - root - INFO - Function dvc_procedures runtime: 0:10:50
+2025-02-28 14:38:24,838 - root - INFO - Function dvc_procedures started with args: (40, 60, 50, 44.41, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_1_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/40hws_60ns_50it_44glt_3z-3y-3xm_G16057_K13_5_0_ref-G16057_K13_5_1_load'), kwargs: {}
+2025-02-28 15:05:28,245 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-28 15:05:28,246 - root - INFO - Function dvc_procedures runtime: 0:27:03
+2025-02-28 15:05:29,050 - root - INFO - Function dvc_procedures started with args: (20, 60, 50, 44.41, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_2_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/20hws_60ns_50it_44glt_3z-3y-3xm_G16057_K13_5_0_ref-G16057_K13_5_2_load'), kwargs: {}
+2025-02-28 15:09:50,131 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-28 15:09:50,132 - root - INFO - Function dvc_procedures runtime: 0:04:21
+2025-02-28 15:09:50,833 - root - INFO - Function dvc_procedures started with args: (40, 80, 50, 44.41, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_2_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/40hws_80ns_50it_44glt_3z-3y-3xm_G16057_K13_5_0_ref-G16057_K13_5_2_load'), kwargs: {}
+2025-02-28 15:22:26,264 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-28 15:22:26,264 - root - INFO - Function dvc_procedures runtime: 0:12:35
+2025-02-28 15:22:27,061 - root - INFO - Function dvc_procedures started with args: (40, 60, 50, 44.41, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_2_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/40hws_60ns_50it_44glt_3z-3y-3xm_G16057_K13_5_0_ref-G16057_K13_5_2_load'), kwargs: {}
+2025-02-28 15:54:49,664 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-28 15:54:49,664 - root - INFO - Function dvc_procedures runtime: 0:32:22
+2025-02-28 15:54:50,675 - root - INFO - Function dvc_procedures started with args: (20, 60, 50, 44.41, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_3_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/20hws_60ns_50it_44glt_3z-3y-3xm_G16057_K13_5_0_ref-G16057_K13_5_3_load'), kwargs: {}
+2025-02-28 16:00:10,416 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-28 16:00:10,417 - root - INFO - Function dvc_procedures runtime: 0:05:19
+2025-02-28 16:00:11,132 - root - INFO - Function dvc_procedures started with args: (40, 80, 50, 44.41, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_3_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/40hws_80ns_50it_44glt_3z-3y-3xm_G16057_K13_5_0_ref-G16057_K13_5_3_load'), kwargs: {}
+2025-02-28 16:15:11,347 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-28 16:15:11,347 - root - INFO - Function dvc_procedures runtime: 0:15:00
+2025-02-28 16:15:12,216 - root - INFO - Function dvc_procedures started with args: (40, 60, 50, 44.41, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_3_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/40hws_60ns_50it_44glt_3z-3y-3xm_G16057_K13_5_0_ref-G16057_K13_5_3_load'), kwargs: {}
+2025-02-28 16:52:19,633 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-28 16:52:19,633 - root - INFO - Function dvc_procedures runtime: 0:37:07
+2025-02-28 16:52:20,544 - root - INFO - Function dvc_procedures started with args: (20, 60, 50, 47.2812, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5/G16057_P4_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5/G16057_P4_5_1_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/20hws_60ns_50it_47glt_3z-3y-3xm_G16057_P4_5_0_ref-G16057_P4_5_1_load'), kwargs: {}
+2025-02-28 16:56:35,028 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-28 16:56:35,029 - root - INFO - Function dvc_procedures runtime: 0:04:14
+2025-02-28 16:56:35,962 - root - INFO - Function dvc_procedures started with args: (40, 80, 50, 47.2812, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5/G16057_P4_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5/G16057_P4_5_1_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/40hws_80ns_50it_47glt_3z-3y-3xm_G16057_P4_5_0_ref-G16057_P4_5_1_load'), kwargs: {}
+2025-02-28 17:10:03,665 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-28 17:10:03,665 - root - INFO - Function dvc_procedures runtime: 0:13:27
+2025-02-28 17:10:04,360 - root - INFO - Function dvc_procedures started with args: (40, 60, 50, 47.2812, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5/G16057_P4_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5/G16057_P4_5_1_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/40hws_60ns_50it_47glt_3z-3y-3xm_G16057_P4_5_0_ref-G16057_P4_5_1_load'), kwargs: {}
+2025-02-28 17:40:56,804 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-28 17:40:56,804 - root - INFO - Function dvc_procedures runtime: 0:30:52
+2025-02-28 17:40:57,682 - root - INFO - Function dvc_procedures started with args: (20, 60, 50, 47.2812, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5/G16057_P4_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5/G16057_P4_5_2_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/20hws_60ns_50it_47glt_3z-3y-3xm_G16057_P4_5_0_ref-G16057_P4_5_2_load'), kwargs: {}
+2025-02-28 17:45:33,438 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-28 17:45:33,438 - root - INFO - Function dvc_procedures runtime: 0:04:35
+2025-02-28 17:45:34,255 - root - INFO - Function dvc_procedures started with args: (40, 80, 50, 47.2812, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5/G16057_P4_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5/G16057_P4_5_2_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/40hws_80ns_50it_47glt_3z-3y-3xm_G16057_P4_5_0_ref-G16057_P4_5_2_load'), kwargs: {}
+2025-02-28 18:00:50,338 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-28 18:00:50,339 - root - INFO - Function dvc_procedures runtime: 0:15:16
+2025-02-28 18:00:51,055 - root - INFO - Function dvc_procedures started with args: (40, 60, 50, 47.2812, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5/G16057_P4_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5/G16057_P4_5_2_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/40hws_60ns_50it_47glt_3z-3y-3xm_G16057_P4_5_0_ref-G16057_P4_5_2_load'), kwargs: {}
+2025-02-28 18:35:29,819 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-28 18:35:29,820 - root - INFO - Function dvc_procedures runtime: 0:34:38
+2025-02-28 18:35:30,864 - root - INFO - Function dvc_procedures started with args: (20, 60, 50, 47.2812, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5/G16057_P4_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5/G16057_P4_5_3_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/20hws_60ns_50it_47glt_3z-3y-3xm_G16057_P4_5_0_ref-G16057_P4_5_3_load'), kwargs: {}
+2025-02-28 18:40:40,264 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-28 18:40:40,264 - root - INFO - Function dvc_procedures runtime: 0:05:09
+2025-02-28 18:40:40,971 - root - INFO - Function dvc_procedures started with args: (40, 80, 50, 47.2812, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5/G16057_P4_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5/G16057_P4_5_3_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/40hws_80ns_50it_47glt_3z-3y-3xm_G16057_P4_5_0_ref-G16057_P4_5_3_load'), kwargs: {}
+2025-02-28 18:56:35,119 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-28 18:56:35,120 - root - INFO - Function dvc_procedures runtime: 0:15:54
+2025-02-28 18:56:35,844 - root - INFO - Function dvc_procedures started with args: (40, 60, 50, 47.2812, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5/G16057_P4_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5/G16057_P4_5_3_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/40hws_60ns_50it_47glt_3z-3y-3xm_G16057_P4_5_0_ref-G16057_P4_5_3_load'), kwargs: {}
+2025-02-28 19:36:24,497 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-28 19:36:24,497 - root - INFO - Function dvc_procedures runtime: 0:39:48
+2025-02-28 19:36:25,387 - root - INFO - Function dvc_procedures started with args: (20, 60, 50, 62.598, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_K12_5/G16060_K12_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_K12_5/G16060_K12_5_1_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/20hws_60ns_50it_63glt_3z-3y-3xm_G16060_K12_5_0_ref-G16060_K12_5_1_load'), kwargs: {}
+2025-02-28 19:42:08,054 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-28 19:42:08,054 - root - INFO - Function dvc_procedures runtime: 0:05:42
+2025-02-28 19:42:08,711 - root - INFO - Function dvc_procedures started with args: (40, 80, 50, 62.598, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_K12_5/G16060_K12_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_K12_5/G16060_K12_5_1_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/40hws_80ns_50it_63glt_3z-3y-3xm_G16060_K12_5_0_ref-G16060_K12_5_1_load'), kwargs: {}
+2025-02-28 19:58:25,274 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-28 19:58:25,275 - root - INFO - Function dvc_procedures runtime: 0:16:16
+2025-02-28 19:58:25,983 - root - INFO - Function dvc_procedures started with args: (40, 60, 50, 62.598, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_K12_5/G16060_K12_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_K12_5/G16060_K12_5_1_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/40hws_60ns_50it_63glt_3z-3y-3xm_G16060_K12_5_0_ref-G16060_K12_5_1_load'), kwargs: {}
+2025-02-28 20:38:23,674 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-28 20:38:23,675 - root - INFO - Function dvc_procedures runtime: 0:39:57
+2025-02-28 20:38:24,730 - root - INFO - Function dvc_procedures started with args: (20, 60, 50, 62.598, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_K12_5/G16060_K12_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_K12_5/G16060_K12_5_2_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/20hws_60ns_50it_63glt_3z-3y-3xm_G16060_K12_5_0_ref-G16060_K12_5_2_load'), kwargs: {}
+2025-02-28 20:44:03,276 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-28 20:44:03,277 - root - INFO - Function dvc_procedures runtime: 0:05:38
+2025-02-28 20:44:03,927 - root - INFO - Function dvc_procedures started with args: (40, 80, 50, 62.598, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_K12_5/G16060_K12_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_K12_5/G16060_K12_5_2_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/40hws_80ns_50it_63glt_3z-3y-3xm_G16060_K12_5_0_ref-G16060_K12_5_2_load'), kwargs: {}
+2025-02-28 21:00:23,277 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-28 21:00:23,277 - root - INFO - Function dvc_procedures runtime: 0:16:19
+2025-02-28 21:00:23,983 - root - INFO - Function dvc_procedures started with args: (40, 60, 50, 62.598, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_K12_5/G16060_K12_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_K12_5/G16060_K12_5_2_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/40hws_60ns_50it_63glt_3z-3y-3xm_G16060_K12_5_0_ref-G16060_K12_5_2_load'), kwargs: {}
+2025-02-28 21:40:57,437 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-28 21:40:57,437 - root - INFO - Function dvc_procedures runtime: 0:40:33
+2025-02-28 21:40:58,262 - root - INFO - Function dvc_procedures started with args: (20, 60, 50, 62.598, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_K12_5/G16060_K12_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_K12_5/G16060_K12_5_3_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/20hws_60ns_50it_63glt_3z-3y-3xm_G16060_K12_5_0_ref-G16060_K12_5_3_load'), kwargs: {}
+2025-02-28 21:47:13,843 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-28 21:47:13,843 - root - INFO - Function dvc_procedures runtime: 0:06:15
+2025-02-28 21:47:14,504 - root - INFO - Function dvc_procedures started with args: (40, 80, 50, 62.598, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_K12_5/G16060_K12_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_K12_5/G16060_K12_5_3_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/40hws_80ns_50it_63glt_3z-3y-3xm_G16060_K12_5_0_ref-G16060_K12_5_3_load'), kwargs: {}
+2025-02-28 22:06:28,246 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-28 22:06:28,247 - root - INFO - Function dvc_procedures runtime: 0:19:13
+2025-02-28 22:06:28,951 - root - INFO - Function dvc_procedures started with args: (40, 60, 50, 62.598, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_K12_5/G16060_K12_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_K12_5/G16060_K12_5_3_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/40hws_60ns_50it_63glt_3z-3y-3xm_G16060_K12_5_0_ref-G16060_K12_5_3_load'), kwargs: {}
+2025-02-28 22:51:48,047 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-28 22:51:48,047 - root - INFO - Function dvc_procedures runtime: 0:45:19
+2025-02-28 22:51:48,853 - root - INFO - Function dvc_procedures started with args: (20, 60, 50, 62.598, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_K12_5/G16060_K12_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_K12_5/G16060_K12_5_4_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/20hws_60ns_50it_63glt_3z-3y-3xm_G16060_K12_5_0_ref-G16060_K12_5_4_load'), kwargs: {}
+2025-02-28 22:57:40,350 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-28 22:57:40,350 - root - INFO - Function dvc_procedures runtime: 0:05:51
+2025-02-28 22:57:41,446 - root - INFO - Function dvc_procedures started with args: (40, 80, 50, 62.598, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_K12_5/G16060_K12_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_K12_5/G16060_K12_5_4_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/40hws_80ns_50it_63glt_3z-3y-3xm_G16060_K12_5_0_ref-G16060_K12_5_4_load'), kwargs: {}
+2025-02-28 23:16:32,444 - root - INFO - Function dvc_procedures ended with result: None
+2025-02-28 23:16:32,444 - root - INFO - Function dvc_procedures runtime: 0:18:50
+2025-02-28 23:16:33,179 - root - INFO - Function dvc_procedures started with args: (40, 60, 50, 62.598, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_K12_5/G16060_K12_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_K12_5/G16060_K12_5_4_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/40hws_60ns_50it_63glt_3z-3y-3xm_G16060_K12_5_0_ref-G16060_K12_5_4_load'), kwargs: {}
+2025-03-01 00:01:49,450 - root - INFO - Function dvc_procedures ended with result: None
+2025-03-01 00:01:49,450 - root - INFO - Function dvc_procedures runtime: 0:45:16
+2025-03-01 00:01:50,373 - root - INFO - Function dvc_procedures started with args: (20, 60, 50, 47.8356, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_P7_5/G16060_P7_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_P7_5/G16060_P7_5_3_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/20hws_60ns_50it_48glt_3z-3y-3xm_G16060_P7_5_0_ref-G16060_P7_5_3_load'), kwargs: {}
+2025-03-01 00:10:23,830 - root - INFO - Function dvc_procedures ended with result: None
+2025-03-01 00:10:23,830 - root - INFO - Function dvc_procedures runtime: 0:08:33
+2025-03-01 00:10:24,561 - root - INFO - Function dvc_procedures started with args: (40, 80, 50, 47.8356, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_P7_5/G16060_P7_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_P7_5/G16060_P7_5_3_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/40hws_80ns_50it_48glt_3z-3y-3xm_G16060_P7_5_0_ref-G16060_P7_5_3_load'), kwargs: {}
+2025-03-01 00:35:01,551 - root - INFO - Function dvc_procedures ended with result: None
+2025-03-01 00:35:01,551 - root - INFO - Function dvc_procedures runtime: 0:24:36
+2025-03-01 00:35:02,296 - root - INFO - Function dvc_procedures started with args: (40, 60, 50, 47.8356, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_P7_5/G16060_P7_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_P7_5/G16060_P7_5_3_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/40hws_60ns_50it_48glt_3z-3y-3xm_G16060_P7_5_0_ref-G16060_P7_5_3_load'), kwargs: {}
+2025-03-01 01:34:59,947 - root - INFO - Function dvc_procedures ended with result: None
+2025-03-01 01:34:59,948 - root - INFO - Function dvc_procedures runtime: 0:59:57
+2025-03-01 01:35:00,894 - root - INFO - Function dvc_procedures started with args: (20, 60, 50, 47.8356, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_P7_5/G16060_P7_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_P7_5/G16060_P7_5_1_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/20hws_60ns_50it_48glt_3z-3y-3xm_G16060_P7_5_0_ref-G16060_P7_5_1_load'), kwargs: {}
+2025-03-01 01:41:56,002 - root - INFO - Function dvc_procedures ended with result: None
+2025-03-01 01:41:56,003 - root - INFO - Function dvc_procedures runtime: 0:06:55
+2025-03-01 01:41:56,670 - root - INFO - Function dvc_procedures started with args: (40, 80, 50, 47.8356, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_P7_5/G16060_P7_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_P7_5/G16060_P7_5_1_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/40hws_80ns_50it_48glt_3z-3y-3xm_G16060_P7_5_0_ref-G16060_P7_5_1_load'), kwargs: {}
+2025-03-01 02:01:34,688 - root - INFO - Function dvc_procedures ended with result: None
+2025-03-01 02:01:34,688 - root - INFO - Function dvc_procedures runtime: 0:19:38
+2025-03-01 02:01:35,375 - root - INFO - Function dvc_procedures started with args: (40, 60, 50, 47.8356, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_P7_5/G16060_P7_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_P7_5/G16060_P7_5_1_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/40hws_60ns_50it_48glt_3z-3y-3xm_G16060_P7_5_0_ref-G16060_P7_5_1_load'), kwargs: {}
+2025-03-01 02:51:12,166 - root - INFO - Function dvc_procedures ended with result: None
+2025-03-01 02:51:12,166 - root - INFO - Function dvc_procedures runtime: 0:49:36
+2025-03-01 02:51:13,108 - root - INFO - Function dvc_procedures started with args: (20, 60, 50, 47.8356, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_P7_5/G16060_P7_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_P7_5/G16060_P7_5_2_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/20hws_60ns_50it_48glt_3z-3y-3xm_G16060_P7_5_0_ref-G16060_P7_5_2_load'), kwargs: {}
+2025-03-01 02:58:16,742 - root - INFO - Function dvc_procedures ended with result: None
+2025-03-01 02:58:16,743 - root - INFO - Function dvc_procedures runtime: 0:07:03
+2025-03-01 02:58:18,049 - root - INFO - Function dvc_procedures started with args: (40, 80, 50, 47.8356, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_P7_5/G16060_P7_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_P7_5/G16060_P7_5_2_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/40hws_80ns_50it_48glt_3z-3y-3xm_G16060_P7_5_0_ref-G16060_P7_5_2_load'), kwargs: {}
+2025-03-01 03:18:54,953 - root - INFO - Function dvc_procedures ended with result: None
+2025-03-01 03:18:54,953 - root - INFO - Function dvc_procedures runtime: 0:20:36
+2025-03-01 03:18:55,646 - root - INFO - Function dvc_procedures started with args: (40, 60, 50, 47.8356, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_P7_5/G16060_P7_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16060_P7_5/G16060_P7_5_2_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/40hws_60ns_50it_48glt_3z-3y-3xm_G16060_P7_5_0_ref-G16060_P7_5_2_load'), kwargs: {}
+2025-03-01 04:11:26,768 - root - INFO - Function dvc_procedures ended with result: None
+2025-03-01 04:11:26,769 - root - INFO - Function dvc_procedures runtime: 0:52:31
+2025-03-02 22:40:55,715 - root - INFO - Function dvc_procedures started with args: (20, 40, 50, 44.41, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_1_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/20hws_40ns_50it_44glt_3z-3y-3xm_G16057_K13_5_0_ref-G16057_K13_5_1_load'), kwargs: {}
+2025-03-02 22:50:41,390 - root - INFO - Function dvc_procedures ended with result: None
+2025-03-02 22:50:41,390 - root - INFO - Function dvc_procedures runtime: 0:09:45
+2025-03-02 22:50:42,135 - root - INFO - Function dvc_procedures started with args: (40, 40, 50, 44.41, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_1_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/40hws_40ns_50it_44glt_3z-3y-3xm_G16057_K13_5_0_ref-G16057_K13_5_1_load'), kwargs: {}
+2025-03-03 00:14:24,034 - root - INFO - Function dvc_procedures ended with result: None
+2025-03-03 00:14:24,035 - root - INFO - Function dvc_procedures runtime: 1:23:41
+2025-03-03 00:14:24,952 - root - INFO - Function dvc_procedures started with args: (20, 40, 50, 44.41, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_2_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/20hws_40ns_50it_44glt_3z-3y-3xm_G16057_K13_5_0_ref-G16057_K13_5_2_load'), kwargs: {}
+2025-03-03 00:25:37,204 - root - INFO - Function dvc_procedures ended with result: None
+2025-03-03 00:25:37,205 - root - INFO - Function dvc_procedures runtime: 0:11:12
+2025-03-03 00:25:37,948 - root - INFO - Function dvc_procedures started with args: (40, 40, 50, 44.41, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_2_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/40hws_40ns_50it_44glt_3z-3y-3xm_G16057_K13_5_0_ref-G16057_K13_5_2_load'), kwargs: {}
+2025-03-03 02:02:35,486 - root - INFO - Function dvc_procedures ended with result: None
+2025-03-03 02:02:35,487 - root - INFO - Function dvc_procedures runtime: 1:36:57
+2025-03-03 02:02:36,530 - root - INFO - Function dvc_procedures started with args: (20, 40, 50, 44.41, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_3_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/20hws_40ns_50it_44glt_3z-3y-3xm_G16057_K13_5_0_ref-G16057_K13_5_3_load'), kwargs: {}
+2025-03-03 02:15:07,875 - root - INFO - Function dvc_procedures ended with result: None
+2025-03-03 02:15:07,875 - root - INFO - Function dvc_procedures runtime: 0:12:31
+2025-03-03 02:15:08,611 - root - INFO - Function dvc_procedures started with args: (40, 40, 50, 44.41, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_3_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/40hws_40ns_50it_44glt_3z-3y-3xm_G16057_K13_5_0_ref-G16057_K13_5_3_load'), kwargs: {}
+2025-03-04 21:45:50,782 - root - INFO - Function dvc_procedures started with args: (40, 40, 50, 44.41, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_K13_5/G16057_K13_5_3_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/40hws_40ns_50it_44glt_3z-3y-3xm_G16057_K13_5_0_ref-G16057_K13_5_3_load'), kwargs: {}
+2025-03-04 23:40:01,645 - root - INFO - Function dvc_procedures ended with result: None
+2025-03-04 23:40:01,648 - root - INFO - Function dvc_procedures runtime: 1:54:10
+2025-03-04 23:40:02,771 - root - INFO - Function dvc_procedures started with args: (20, 40, 50, 47.2812, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5/G16057_P4_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5/G16057_P4_5_1_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/20hws_40ns_50it_47glt_3z-3y-3xm_G16057_P4_5_0_ref-G16057_P4_5_1_load'), kwargs: {}
+2025-03-04 23:51:37,407 - root - INFO - Function dvc_procedures ended with result: None
+2025-03-04 23:51:37,407 - root - INFO - Function dvc_procedures runtime: 0:11:34
+2025-03-04 23:51:38,138 - root - INFO - Function dvc_procedures started with args: (40, 40, 50, 47.2812, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5/G16057_P4_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5/G16057_P4_5_1_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/40hws_40ns_50it_47glt_3z-3y-3xm_G16057_P4_5_0_ref-G16057_P4_5_1_load'), kwargs: {}
+2025-03-05 01:34:49,637 - root - INFO - Function dvc_procedures ended with result: None
+2025-03-05 01:34:49,637 - root - INFO - Function dvc_procedures runtime: 1:43:11
+2025-03-05 01:34:50,493 - root - INFO - Function dvc_procedures started with args: (20, 40, 50, 47.2812, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5/G16057_P4_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5/G16057_P4_5_2_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/20hws_40ns_50it_47glt_3z-3y-3xm_G16057_P4_5_0_ref-G16057_P4_5_2_load'), kwargs: {}
+2025-03-05 01:47:42,017 - root - INFO - Function dvc_procedures ended with result: None
+2025-03-05 01:47:42,017 - root - INFO - Function dvc_procedures runtime: 0:12:51
+2025-03-05 01:47:42,910 - root - INFO - Function dvc_procedures started with args: (40, 40, 50, 47.2812, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5/G16057_P4_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5/G16057_P4_5_2_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/40hws_40ns_50it_47glt_3z-3y-3xm_G16057_P4_5_0_ref-G16057_P4_5_2_load'), kwargs: {}
+2025-03-05 03:42:36,712 - root - INFO - Function dvc_procedures ended with result: None
+2025-03-05 03:42:36,713 - root - INFO - Function dvc_procedures runtime: 1:54:53
+2025-03-05 03:42:38,133 - root - INFO - Function dvc_procedures started with args: (20, 40, 50, 47.2812, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5/G16057_P4_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5/G16057_P4_5_3_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/20hws_40ns_50it_47glt_3z-3y-3xm_G16057_P4_5_0_ref-G16057_P4_5_3_load'), kwargs: {}
+2025-03-05 03:59:05,062 - root - INFO - Function dvc_procedures ended with result: None
+2025-03-05 03:59:05,062 - root - INFO - Function dvc_procedures runtime: 0:16:26
+2025-03-05 03:59:05,836 - root - INFO - Function dvc_procedures started with args: (40, 40, 50, 47.2812, 3, 3, 3, '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5/G16057_P4_5_0_ref.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/3D_TIFF_ALIGNED/G16057_P4_5/G16057_P4_5_3_load.tif', '/mnt/d/DIC/DATA_DIC_PROCESSED/DVC_OUTPUT/40hws_40ns_50it_47glt_3z-3y-3xm_G16057_P4_5_0_ref-G16057_P4_5_3_load'), kwargs: {}
