@@ -16,8 +16,6 @@ import tifffile as tiff
 import next_excel_column
 import numpy as np
 
-import img_seq_to_tiff
-
 # Define project paths
 external_drive_path = os.path.join("..", "..", "..", "..", "bigdisk", "mrogala")
 DIC_folder_path = os.path.join(external_drive_path, 'DIC')
@@ -207,27 +205,6 @@ def create_3d_tiff_from_path(path, save_folder_path):
     # check if directory exists, if not, create it
     os.makedirs(os.path.dirname(save_folder_path), exist_ok=True)
     img_seq_to_tiff.create_3d_tiff(path, save_folder_path)
-
-@log_function_call
-def create_3d_tiffs_from_paths(paths, save_folder_path):
-    """
-    Create 3D TIFF for every path in paths and save them to disk. Handles automatic file naming.
-    Args:
-        paths (list): List of paths to create 3D TIFF from.
-    Returns:
-        None
-    """
-    for path in paths:
-        directory = os.path.dirname(path)
-
-        # Get the last part of the directory name
-        second_last_part = os.path.basename(directory)
-        file_name = second_last_part + "_" + get_file_desc_from_path(path) + '.tif'
-        out_path = os.path.join(save_folder_path, file_name)
-        print(path)
-        print(out_path)
-        print('----------------')
-        create_3d_tiff_from_path(path, out_path)
 
 @log_function_call
 def dvc_procedures(hws, ns, it, glt, m_x, m_y, m_z, im1, im2, out):
