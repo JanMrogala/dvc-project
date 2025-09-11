@@ -17,7 +17,6 @@ import next_excel_column
 import numpy as np
 
 import img_seq_to_tiff
-import align_images
 
 # Define project paths
 external_drive_path = os.path.join("..", "..", "..", "..", "bigdisk", "mrogala")
@@ -82,40 +81,6 @@ def run():
         for folder_2 in folders_2:
             tmp.append(os.path.join(path_2, folder_2))
         data_paths.append(tmp)
-    
-    # Create 3D TIFFs from raw ref data
-    # for path_grp in data_paths:
-    #     for path in path_grp:
-
-    #         # Get the directory name of the path
-    #         directory = os.path.dirname(path)
-
-    #         # Get the last part of the directory name
-    #         basename = os.path.basename(directory)
-    #         save_path_3d_file = os.path.join(tiff_3d_aligned_output_path, basename, basename + "_" + get_file_desc_from_path(path) + '.tif')
-    #         if not os.path.exists(save_path_3d_file):
-    #             print(f"created 3d tiff in {path}")
-    #             create_3d_tiff_from_path(path, save_path_3d_file)
-
-    # Align images from raw data
-    # for path_grp in data_paths:
-
-    #     for i, path in enumerate(path_grp):
-    #         # Don't allign reference with itself
-    #         if i != 0:
-    #             continue
-    #         # Get the directory name of the path
-    #         directory = os.path.dirname(path)
-
-    #         # Get the last part of the directory name
-    #         basename = os.path.basename(directory)
-    #         save_folder = os.path.join(tiff_3d_aligned_output_raw_path, basename, get_file_desc_from_path(path))
-    #         # if not os.path.exists(save_folder):
-    #         #     align_images_from_path(path_grp[0], path, save_folder, (1400, 1600), (400, 800))
-            
-    #         save_path_3d_file = os.path.join(tiff_3d_aligned_output_path, basename, basename + "_" + get_file_desc_from_path(path) + '.tif')
-    #         if not os.path.exists(save_path_3d_file):
-    #             create_3d_tiff_from_path(save_folder, save_path_3d_file)
 
     data_paths_3d = get_folders(tiff_3d_aligned_output_path)
     data_paths_3d_files = []
@@ -263,22 +228,6 @@ def create_3d_tiffs_from_paths(paths, save_folder_path):
         print(out_path)
         print('----------------')
         create_3d_tiff_from_path(path, out_path)
-
-@log_function_call
-def align_images_from_path(ref_folder_path, def_folder_path, save_folder_path, row_range, col_range):
-    """
-    Align images by shifting. Saves aligned images to save_folder_path.
-    Args:
-        ref_folder_path (path): Path to reference images.
-        def_folder_path (path): Path to deformed images.
-        save_folder_path (path): Path to save aligned images.
-        row_range (tuple): Range of rows to focus on.
-        col_range (tuple): Range of columns to focus on.
-    Returns:
-        None
-    """
-    os.makedirs(os.path.dirname(save_folder_path), exist_ok=True)
-    align_images.align(ref_folder_path, def_folder_path, save_folder_path, row_range, col_range)
 
 @log_function_call
 def dvc_procedures(hws, ns, it, glt, m_x, m_y, m_z, im1, im2, out):
