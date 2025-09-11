@@ -2,7 +2,6 @@ import os
 import numpy as np
 import cv2
 import tifffile as tiff
-from tqdm.notebook import tqdm
 from concurrent.futures import ThreadPoolExecutor
 
 def __load_image(img_path):
