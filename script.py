@@ -90,7 +90,7 @@ def run():
 
     # Do DVC on all reference - load pairs in data
     hws_experiments = [10, 20, 30]
-    ns_experiments = [60, 40, 20]
+    ns_experiments = [20]
     # hws_experiments = [10]
     # ns_experiments = [20]
     it = 50
@@ -98,19 +98,19 @@ def run():
     m_y = 5
     m_z = 5
 
-    allowed = ["G16057_P4_5"]
+    # allowed = ["G16057_P4_5"]
 
     for files in data_paths_3d_files:
 
-        skip = True
-        for allow in allowed:
-            if allow in files[0]:
-                skip = False
-                break
+        # skip = True
+        # for allow in allowed:
+        #     if allow in files[0]:
+        #         skip = False
+        #         break
         
-        if skip:
-            print(f"Skipping folder {files[0]} as it does not contain allowed samples")
-            continue
+        # if skip:
+        #     print(f"Skipping folder {files[0]} as it does not contain allowed samples")
+        #     continue
             
             
         im1 = None  # reference image
